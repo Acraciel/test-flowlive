@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "flowlive",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.0542797bb1d44f4bdbb8.js",
+        "/polyfills.c4866c710b104f081d1c.js",
+        "/runtime.a66f828dca56eeb90e02.js",
+        "/styles.9d74156b3b75f666c233.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/css/animate.css",
+        "/assets/fonts/segoeui.ttf",
+        "/assets/icons/fl-icon-128x128.png",
+        "/assets/icons/fl-icon-144x144.png",
+        "/assets/icons/fl-icon-152x152.png",
+        "/assets/icons/fl-icon-192x192.png",
+        "/assets/icons/fl-icon-384x384.png",
+        "/assets/icons/fl-icon-512x512.png",
+        "/assets/icons/fl-icon-72x72.png",
+        "/assets/icons/fl-icon-96x96.png",
+        "/assets/img/bgSurveys.jpg",
+        "/assets/img/dropzone.png",
+        "/assets/img/flowlive.png",
+        "/assets/img/inputIcons/doc.png",
+        "/assets/img/inputIcons/file.png",
+        "/assets/img/inputIcons/odt.png",
+        "/assets/img/inputIcons/pdf.png",
+        "/assets/img/inputIcons/txt.png",
+        "/assets/img/inputIcons/zip.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/css/animate.css": "1eba673d48e917dc72ba41ef55c0ee08dc7d257d",
+    "/assets/fonts/segoeui.ttf": "4f56ca88f85051b935da38fae3207c34af3a6fb7",
+    "/assets/icons/fl-icon-128x128.png": "e491faa8e1331f0e64d417c36783b545985e855f",
+    "/assets/icons/fl-icon-144x144.png": "8487e9755ceb9fcc8b0c03e43233858388e3afc5",
+    "/assets/icons/fl-icon-152x152.png": "27e027b01508c6d97fcd46f1c480a3fd2d389690",
+    "/assets/icons/fl-icon-192x192.png": "b131e8d2b47c8c207683118ed8f83858ff660404",
+    "/assets/icons/fl-icon-384x384.png": "f42c6d7d492c0a708d7546f7518574e5e393651e",
+    "/assets/icons/fl-icon-512x512.png": "59b74da042e2c944ee1806b9f64011b70eabf344",
+    "/assets/icons/fl-icon-72x72.png": "7566b386a56c003178c45e0c9dfbd409cead3a7a",
+    "/assets/icons/fl-icon-96x96.png": "c02e0c9b97cdbe7e5eaf2f3bb54ba586800fb919",
+    "/assets/img/bgSurveys.jpg": "ddcf6f1e726d698ab7f0c606baf897443e1b2f31",
+    "/assets/img/dropzone.png": "50c3bef2e85bc332cc255a5bc44b2904b9656ed1",
+    "/assets/img/flowlive.png": "4e8ad4870b81b730e79ea57d6888edaf5ee641e5",
+    "/assets/img/inputIcons/doc.png": "632379da2095e4c8268ae545f5d08b68e632320d",
+    "/assets/img/inputIcons/file.png": "bae62550c745560713c826def3f99045c894544b",
+    "/assets/img/inputIcons/odt.png": "636e05c0a3685abb536c42f96c5eb5b0604a9afa",
+    "/assets/img/inputIcons/pdf.png": "920b1e9a63782319b55428f90654b442eb6c5728",
+    "/assets/img/inputIcons/txt.png": "d1afcb76533952a359d5bb71f7ba9b57759c6833",
+    "/assets/img/inputIcons/zip.png": "5d1c1ddabb4a8a025abeaad35387522028a84c3b",
+    "/favicon.ico": "c815f7250e3318d36a6f1f337f82c7cf24f1db98",
+    "/index.html": "ef7074ff505a8cccd8f595175a927cf1b49bd97e",
+    "/main.0542797bb1d44f4bdbb8.js": "78fbb1dc48033b354acdbeffcf9251c0e91a6285",
+    "/polyfills.c4866c710b104f081d1c.js": "7702f0035bb2409278678852dd88dae686c660ab",
+    "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/styles.9d74156b3b75f666c233.css": "929b3a870c7ae5b8a500e4be2c24de7812f4a67b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
